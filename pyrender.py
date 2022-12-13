@@ -58,7 +58,7 @@ def generate_traj(total_steps):
 
     for s in range(30):
         # rotate 30 steps
-        euler_x = euler_y + 0.05
+        euler_y = euler_y + 0.05
         pos = np.array([x, y, z, euler_x, euler_y, euler_z])
         traj_.append(pos)
 
