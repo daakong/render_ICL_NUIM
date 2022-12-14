@@ -6,6 +6,7 @@ Code is based on the source code from ICL-NUIM and adopted by Da Kong. You can d
 
 > The data is released under Creative Commons 3.0 (CC BY 3.0), see http://creativecommons.org/licenses/by/3.0/. 
 
+# Usage
 
 1. install pov_ray first. In this repo, we use 3.7-stable version.
 
@@ -31,4 +32,20 @@ You can [download](ttp://www.doc.ic.ac.uk/~ahanda/VaFRIC/office_code.tgz) yourse
 
 ```
 python pyrender.py
+```
+
+
+# Acknowledgement
+This repo is based on ICL-NUIM dataset by A. Handa and T. Whelan and J.B. McDonald and A.J. Davison.
+Please cite the paper of original authors:
+
+```angular2html
+@InProceedings{handa:etal:ICRA2014,
+author = {A. Handa and T. Whelan and J.B. McDonald and A.J. Davison},
+title = {A Benchmark for {RGB-D} Visual Odometry, {3D} Reconstruction and {SLAM}},
+booktitle = {IEEE Intl. Conf. on Robotics and Automation, ICRA},
+address = {Hong Kong, China},
+month = {May},
+year = {2014}
+}
 ```
